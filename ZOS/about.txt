@@ -1,0 +1,29 @@
+                                                         
+                                                         
+	ZZZZZZZZZZZZZZZZZZZ     OOOOOOOOO        SSSSSSSSSSSSSSS 
+	Z:::::::::::::::::Z   OO:::::::::OO    SS:::::::::::::::S
+	Z:::::::::::::::::Z OO:::::::::::::OO S:::::SSSSSS::::::S
+	Z:::ZZZZZZZZ:::::Z O:::::::OOO:::::::OS:::::S     SSSSSSS
+	ZZZZZ     Z:::::Z  O::::::O   O::::::OS:::::S            
+			Z:::::Z    O:::::O     O:::::OS:::::S            
+		   Z:::::Z     O:::::O     O:::::O S::::SSSS         
+		  Z:::::Z      O:::::O     O:::::O  SS::::::SSSSS    
+		 Z:::::Z       O:::::O     O:::::O    SSS::::::::SS  
+		Z:::::Z        O:::::O     O:::::O       SSSSSS::::S 
+	   Z:::::Z         O:::::O     O:::::O            S:::::S
+	ZZZ:::::Z     ZZZZZO::::::O   O::::::O            S:::::S
+	Z::::::ZZZZZZZZ:::ZO:::::::OOO:::::::OSSSSSSS     S:::::S
+	Z:::::::::::::::::Z OO:::::::::::::OO S::::::SSSSSS:::::S
+	Z:::::::::::::::::Z   OO:::::::::OO   S:::::::::::::::SS 
+	ZZZZZZZZZZZZZZZZZZZ     OOOOOOOOO      SSSSSSSSSSSSSSS   
+															 
+                                                         
+                                                         
++	Zerith Operating System is a general purpose hobby operating system
++	created by Zerith the magnificent.
+
++	The OS had previous versions which were developed for x86, and is
++	now mainly developed for the ARM architecture and in particular for
++	the RaspberryPI.
+
++	The system is designed with a modular structure in mind.
