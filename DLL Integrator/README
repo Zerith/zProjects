@@ -1,0 +1,30 @@
+			-== Instructions for usage of the Interagtor utility ==-
+
++	About
+	
+	Integrator is a tool to be used by crackers for the purpose of 'static' DLL-injection 
+	of DLLs into the target game's process.
+	What the Integrator does is prepend code to the target game that loads up the given DLL from disk.
+	
++	Usage
+	
+	The integrator is a command-line utility and therefore accepts command-line arguments.
+	the argument format is as follows:
+	
+	Integrator.exe <Game_name>.exe <DLL_name>.dll
+	
+	where <Game_name> is the name of the game to which integration will be applied.
+	where <DLL_name> is the name of the DLL to be loaded by the target game.
+	
++	Notes for releasing of integrated games
+	
+	The tool outputs several files:
+	-	<Game_name>.exe
+	-	<Game_name>.bak
+	-	<DLL_name>.dll
+	
+	The BAK file is only for backup purposes, it is a copy of the original <Game_name>.exe
+	before integration, it is not to be released with the cracked game UNLESS SPECIFIED OTHERWISE.
+	
+	The output DLL WILL be included along with the output EXE in the release.
+	
