@@ -24,7 +24,5 @@
 	-	<DLL_name>.dll
 	
 	The BAK file is only for backup purposes, it is a copy of the original <Game_name>.exe
-	before integration, it is not to be released with the cracked game UNLESS SPECIFIED OTHERWISE.
-	
-	The output DLL WILL be included along with the output EXE in the release.
+	before integration.
 	
