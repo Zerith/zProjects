@@ -23,22 +23,22 @@ extern void IntegrateCode(char *szDLL_Name, char *szGamePath);
 
 int main(int argc, char *argv[])
 {
-	char szBakFilename[MAX_PATH];
+    char szBakFilename[MAX_PATH];
 
-	if (argc < 2)
-	{
-		printf("\nUsage: %s <Game_name.exe> <DLL_name.dll>", argv[0]);
-		printf("\n\tBoth of the files need to be in the current directory");
-		getchar();
-		exit(ERROR_INVALID_PARAMETER);
-	}
-	strncpy(szGamePath, argv[1], sizeof(szGamePath));
-	strncpy(szDLLPath, argv[2], sizeof(szDLLPath));
-	// Create a backup of the game file:
-	sscanf(szGamePath, "%[^.]s", szBakFilename);
-	strcat(szBakFilename, ".bak");
-	CopyFileA(szGamePath, szBakFilename, TRUE);
-	// Prepend the code:
-	IntegrateCode(szDLLPath, szGamePath);
-	return EXIT_SUCCESS;
+    if (argc < 2)
+    {
+        printf("\nUsage: %s <Game_name.exe> <DLL_name.dll>", argv[0]);
+        printf("\n\tBoth of the files need to be in the current directory");
+        getchar();
+        exit(ERROR_INVALID_PARAMETER);
+    }
+    strncpy(szGamePath, argv[1], sizeof(szGamePath));
+    strncpy(szDLLPath, argv[2], sizeof(szDLLPath));
+    // Create a backup of the game file:
+    sscanf(szGamePath, "%[^.]s", szBakFilename);
+    strcat(szBakFilename, ".bak");
+    CopyFileA(szGamePath, szBakFilename, TRUE);
+    // Prepend the code:
+    IntegrateCode(szDLLPath, szGamePath);
+    return EXIT_SUCCESS;
 }

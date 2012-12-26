@@ -16,10 +16,10 @@
 //
 struct LdrData
 {
-	char		szDLL_Name[MAX_PATH];
-	WCHAR		wcszKernel32[20];
-	char		szLoadLibrary[20];
-	DWORD		dwOriginalEntryPoint;
+	char	szDLL_Name[MAX_PATH];
+	WCHAR	wcszKernel32[20];
+	char	szLoadLibrary[20];
+	DWORD	dwOriginalEntryPoint;
 
 };
 
